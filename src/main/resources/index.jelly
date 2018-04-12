@@ -1,0 +1,4 @@
+<?jelly escape-by-default='true'?>
+<div>
+    This plug upload local file to 七牛云　bucket and save the file link.
+</div>
