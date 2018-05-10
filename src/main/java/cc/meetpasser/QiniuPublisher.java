@@ -152,13 +152,8 @@ public class QiniuPublisher extends Recorder {
 
                 } catch (QiniuException e) {
                     try {
-                        Response r = e.response;
-                        if (r != null) {
-                            logger.println("上传 " + fullPath + " 到 " + entry.bucket + " 失败 " + r.bodyString());
-                        } else {
-                            logger.println("上传 " + fullPath + " 到 " + entry.bucket + " 失败 ");
-                            logger.println(e);
-                        }
+                        logger.println("上传 " + fullPath + " 到 " + entry.bucket + " 失败 ");
+                        logger.println(e.error());
                     } catch (Exception e1) {
                         //ignore
                         logger.print(e1);
