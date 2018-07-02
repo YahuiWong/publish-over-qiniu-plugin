@@ -98,7 +98,6 @@ public class QiniuPublisher extends Recorder {
             UploadManager uploadManager = new UploadManager(c);
 
             String expanded = Util.replaceMacro(entry.source, envVars);
-            logger.println("expanded:" + expanded);
             FilePath[] paths = ws.list(expanded);
             for (FilePath path : paths) {
                 String fullPath = path.getRemote();
