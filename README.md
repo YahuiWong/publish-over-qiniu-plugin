@@ -20,7 +20,7 @@
 
 ### 已经编译文件下载
 
-[qinniu-file.hpi](https://github.com/YahuiWong/qiniu-file/blob/master/qinniu-file.hpi?raw=true)
+[qinniu-file.hpi](https://github.com/YahuiWong/publish-over-qiniu-plugin/blob/master/qinniu-file.hpi?raw=true)
 
 ### 手动编译
 ```
