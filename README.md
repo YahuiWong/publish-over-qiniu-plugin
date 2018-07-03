@@ -30,6 +30,6 @@ mvn package -DskipTests
 
 >  项目参考 
 > 1. [七牛云上传插件](https://github.com/ipy/qiniu-plugin)，并增加新功能。
-> 2. [七牛云上传插件](https://github.com/onloadcc/qiniu-file),见文件发布修改为文件夹发布
+> 2. [七牛云上传插件](https://github.com/onloadcc/qiniu-file),将文件发布修改为文件夹发布
 
 
